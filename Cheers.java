@@ -22,7 +22,7 @@ public class Cheers {
                         isan=false;
                        // else{System.out.println("Give me " + "a " +  word.charAt(i)+ ": " +  word.charAt(i) +"!");}
                                       }
-                        if(!isan){System.out.println("Give me " + "a  " +  word.charAt(i)+ ": " +  word.charAt(i) +"!");}
+                        if(!isan){System.out.println("Give me " + "a  " +  Character.toUpperCase(word.charAt(i))+ ": " +  Character.toUpperCase(word.charAt(i)) +"!");}
                 }       
         System.out.println("What does that spell?");
         if(num!=0)for (int i =0; i<num+1;i++){System.out.println(word.toUpperCase()+"!!!");}                   
