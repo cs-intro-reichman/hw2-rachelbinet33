@@ -25,7 +25,7 @@ public class Cheers {
                         if(!isan){System.out.println("Give me " + "a  " +  word.charAt(i)+ ": " +  word.charAt(i) +"!");}
                 }       
         System.out.println("What does that spell?");
-        for (int i =0; i<num+1;i++){System.out.println(word+"!!!");}                   
+        for (int i =0; i<num+1;i++){System.out.println(word.toUpperCase()+"!!!");}                   
         }
         
 }
