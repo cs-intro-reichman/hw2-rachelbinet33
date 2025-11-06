@@ -4,7 +4,7 @@ public class CalcPi {
 		int num = Integer.parseInt(args[0]);
 		boolean sign = true;
 		double sum = 0;
-		for (int i=1; i<num+1;i+=2){
+		for (int i=1,count=0; count<num;i+=2,count++){
 			if(sign == true){
 				sum += (1.0/i);
 				sign = false;
