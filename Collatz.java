@@ -5,7 +5,7 @@ public class Collatz {
 		int steps = 0;
 		String mode = args[1];
 		int current = seed;
-		if(mode.equals('v')){
+		if(mode.equals("v")){
 			for(int i = 1 ; i<= seed ;i++)
 			{
 				current=i;
