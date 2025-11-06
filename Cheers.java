@@ -16,7 +16,7 @@ public class Cheers {
         for (int i = 0; i < word.length(); i++){
                 for(char letter : list){
                         if (letter == word.charAt(i) || letter == Character.toUpperCase(word.charAt(i)))
-                        {System.out.println("Give me " + "an " +  word.charAt(i)+ ": " +  word.charAt(i) +"!");
+                        {System.out.println("Give me " + "an " +  letter+ ": " +  letter +"!");
                         isan = true;
                         break;}
                         isan=false;
